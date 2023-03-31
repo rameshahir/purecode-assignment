@@ -25,8 +25,16 @@ export default function PandTeam(props) {
       <LinearProgress
         variant="determinate"
         value={props?.progress}
-        sx={{ marginBottom: 2 }}
+        style={{ backgroundColor: "lightgray" }}
+        sx={{
+          marginBottom: 2,
+
+          "& .MuiLinearProgress-bar1Determinate": {
+            backgroundColor: "turquoise",
+          },
+        }}
       />
+
       <AvatarGroup total={6} sx={{ placeContent: "start" }}>
         <Avatar alt="Remy Sharp" src={house} />
         <Avatar alt="Travis Howard" src={KemChho} />
