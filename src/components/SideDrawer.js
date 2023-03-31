@@ -95,7 +95,7 @@ function SideDrawerComponents(props) {
           position="absolute"
           open={open}
           sx={{
-            backgroundColor: "aliceblue",
+            backgroundColor: "ghostwhite",
             boxShadow: 0,
           }}
         >
@@ -149,7 +149,7 @@ function SideDrawerComponents(props) {
         <Box
           component="main"
           sx={{
-            backgroundColor: "aliceblue",
+            backgroundColor: "ghostwhite",
             flexGrow: 1,
             height: "100vh",
             overflow: "auto",
@@ -158,7 +158,7 @@ function SideDrawerComponents(props) {
           <Toolbar />
           <Container
             maxWidth="lg"
-            sx={{ mt: 4, mb: 4, backgroundColor: "aliceblue" }}
+            sx={{ mt: 4, mb: 4, backgroundColor: "ghostwhite" }}
           >
             <Grid
               container
